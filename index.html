@@ -27,62 +27,67 @@
 
 
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
     <title>Fundacion Bailard</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
+    <header>
 
-        <div class="container">
+        <nav class="navbar navbar-dark bg-transparent navbar-expand-md">
 
-            <a href="#" class="navbar-brand">Fundacion Bailard</a>
-
-        
-
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-expanded="false" aria-controls="barra-navegacion">
-
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-            <div class="collapse navbar-collapse" id="barraNavegacion">
-
-                <ul class="navbar-nav">
+            <div class="container">
+    
+                <a href="#" class="navbar-brand h1 ps-3 pt-3">Fundacion Bailard</a>
+    
+            
+    
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-expanded="false" aria-controls="barra-navegacion">
+    
+                    <span class="navbar-toggler-icon"></span>
+    
+                </button>
+    
+                <div class="collapse navbar-collapse" id="barraNavegacion">
+    
+                    <ul class="navbar-nav ms-auto">
+                        
+                        <li class="nav-item"><a class="nav-link">Quienes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link">Novedades</a></li>
+                        <li class="nav-item"><a class="nav-link">Leeme</a></li>
+                        <li class="nav-item"><button type="button" class="btn btn-secondary">Pasa a la Accion</button></li>
+                    </ul>
+    
                     
-                    <li class="nav-item"><a class="nav-link">Quienes Somos ></a></li>
-                    <li class="nav-item"><a class="nav-link">Novedades</a></li>
-                    <li class="nav-item"><a class="nav-link">Leeme</a></li>
-                </ul>
-
-                <button type="button" class="btn btn-primary">Pasa a la Accion</button>
-
-            </div>
-
-        </div>
-    </nav>
-
-    <section class="introduccion imagen">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-sm-12 text-center">
-
-                    <p class="py-5">La sustentabilidad</p>
-
-                    <p class="h1 py-5">Comienza Contigo</p>
-
-
-                    <button class="btn btn-secondary btn-lg px-4 py-2">Ver mas</button>
-
+    
                 </div>
-
+    
             </div>
+        </nav>
 
-        </div>
+        <section class="introduccion">
 
-    </section>
+            <div class="container">
+    
+                <div class="row">
+    
+                    <div class="col-sm-12 text-center text-white">
+    
+                        <p class="py-5 h4">La sustentabilidad</p>
+    
+                        <p class="h1 display-3 fw-bold pt-3 pb-5 px-5">comienza contigo</p>
+    
+    
+                        <button class="btn btn-secondary btn-lg px-4 py-2">Ver mas</button>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </section>
+    </header>
 
     <section class="filosofia">
 
@@ -90,16 +95,12 @@
 
             <div class="row">
 
-                <div class="col-sm-12 text-center px-3">
+                <div class="col-sm-12 text-center px-5">
 
                     <h1 class="pt-5 pb-4">Conservamos la tierra mediante actividades de extensión y recuperación.</h1>
 
                     <p class="px-3 pb-4">Algunos de los paisajes más maravillosos de la Tierra están amenazados por el aumento de la construcción de carreteras, la exploración de petróleo y gas, y la minería. Buscamos proteger estas áreas de un desarrollo inapropiado, pero no podemos lograr nuestros objetivos solos. Averigua cómo puedes ayudar.</p>
-                    <div class="col-10 offset-1 pt-5 pb-4">
 
-                        <img src="images/beautiful-shot-of-mountains-and-forests-in-switzerland.jpg" width="100%">
-
-                    </div>
                 </div>
             </div>
         </div>
@@ -113,24 +114,34 @@
 
                 <div class="col-12 px-4 text-center">
 
-                    <h1 class="py-3">Nuestra Organizacion</h1>
+                    <div class="col-10 col-md-6 offset-1 offset-md-0 pt-5 pb-4 float-md-start">
 
-                    <p class="px-3">Infórmate sobre nuestra misión, nuestros métodos y los resultados de décadas de defensa de derechos.</p>
-                    <div class="pb-4">
-                        <button type="button" class="btn btn-primary btn-lg py-2 px-4"> Ver mas</button>
-                    </div>
-                
-                    <div class="col-12 pt-5 pb-4">
-
-                        <img src="images/beautiful-wooden-pathway-going-the-breathtaking-colorful-trees-in-forest.jpg" width="100%">
+                        <img src="images/beautiful-shot-of-mountains-and-forests-in-switzerland.jpg" width="100%">
 
                     </div>
+                    <div class="col-md-6 float-md-start">
+                        <h1 class="py-3">Nuestra Organizacion</h1>
 
-                    <h1>Pasa a la Accion</h1>
-                    <p class="px-3">¿Estás listo para dar el siguiente paso? Puedes convertirte en un colaborador de nuestra causa o participar personalmente.</p>
+                        <p class="px-3">Infórmate sobre nuestra misión, nuestros métodos y los resultados de décadas de defensa de derechos.</p>
+                        <div class="pb-4">
+                            <button type="button" class="btn btn-secondary btn-lg py-2 px-4"> Ver mas</button>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-12 col-md-6 pt-5 pb-4 float-md-end mx-0">
 
-                    <button type="button" class="btn btn-primary btn-lg py-2 px-4">Descubre como</button>
+                        <img src="images/beautiful-wooden-pathway-going-the-breathtaking-colorful-trees-in-forest.jpg" width="90%">
 
+                    </div>
+
+                    <div class="col-md-6 float-md-start pt-md-5 mx-0">
+                        <h1>Pasa a la Accion</h1>
+                        <p class="px-3 px-md-0">¿Estás listo para dar el siguiente paso? Puedes convertirte en un colaborador de nuestra causa o participar personalmente.</p>
+
+                        <button type="button" class="btn btn-secondary btn-lg py-2 px-4">Descubre como</button>
+
+                    </div>
                 </div>
 
             </div>
@@ -155,17 +166,19 @@
 
                     </form>
 
-                    <button type="button" class="btn btn-primary btn-lg py-2 px-4">Registrarse</button>
+                    <button type="button" class="btn btn-secondary btn-lg py-2 px-4">Registrarse</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="informacion">
+    <footer class="informacion bg-dark text-light text-center">
 
-        <div class="container">
+        <div class="container py-4">
 
-
+            <p>123 Demo Street, New York NY   |   (555) </p>
+            <p>555-5555   |   email@example.com</p>
+            <p>Hecho con <u class="text-secondary">Bootstrap5</u></p>
 
         </div>
 

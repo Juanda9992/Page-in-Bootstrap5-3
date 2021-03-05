@@ -1,6 +1,7 @@
-.imagen {
-  background-image: url(../images/fantastic-landscape-in-the-mountains-of-ukraine-vibrant-night-sky-with-stars-and-nebula-and-galaxy.jpg);
-  background-repeat: none;
-  background-position: center; }
+header {
+  background-image: url("../images/fantastic-landscape-in-the-mountains-of-ukraine-vibrant-night-sky-with-stars-and-nebula-and-galaxy.jpg");
+  height: 115vh;
+  min-height: 400px;
+  background-size: cover; }
 
 /*# sourceMappingURL=estilos.css.map */
