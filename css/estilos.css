@@ -4,4 +4,17 @@ header {
   min-height: 400px;
   background-size: cover; }
 
+@media (min-width: 768px) {
+  html {
+    font-size: 19px; }
+
+  header {
+    height: 110vh; } }
+@media (min-width: 960px) {
+  html {
+    font-size: 21px; }
+
+  header {
+    height: 80vh; } }
+
 /*# sourceMappingURL=estilos.css.map */
